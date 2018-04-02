@@ -2,33 +2,33 @@
 public class janken {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソチE��・スタチE
+		// TODO 自動生成されたメソッド・スタブ
 		System.out.println("a");
 
 		//①プログラムが開始したことを表示する
-		//プログラム開始メチE��ージを表示する
+		//プログラム開始メッセージを表示する
 
-		System.out.println("【じめE��けん開始】\n");
+		System.out.println("【じゃんけん開始】\n");
 
 		final int STONE = 0; //グー
 		final int SCISSORS =1;
 		final int PAPER=2;
 
-		//乱数を格納するため�E変数
+		//乱数を格納するための変数
 		double randomNum=0;
 
-//		//②プレイヤー�E�が何を出すか決める
+//		//②プレイヤー１が何を出すか決める
 //
 //		int player1Hand=0;
 //
-//		//0以丁E未満の少数として乱数を得る
+//		//0以上3未満の少数として乱数を得る
 //
 //		randomNum = Math.random()*3;
 //
 //		if(randomNum <1)
 //		{
 //			player1Hand = STONE;
-//			//プレイヤー�E��E手を表示
+//			//プレイヤー１の手を表示
 //			System.out.print("グー");
 //		}
 //
@@ -41,18 +41,18 @@ public class janken {
 //		}
 //		else if(randomNum < 3)
 //		{
-//			//randomNumぁE.0以丁E.0未満の場合、パー
+//			//randomNumが2.0以上3.0未満の場合、パー
 //			player1Hand = PAPER;
 //
 //			//プレイヤー1の手を表示する
-//			System.out.print("パ�E");
+//			System.out.print("パー");
 //
 //		}
 //
 //		//③プレイヤー2が何を出すか決める
 //		int player2Hand=0;
 //
-//		//0以丁E未満の少数として乱数を得る
+//		//0以上3未満の少数として乱数を得る
 //		randomNum = Math.random()*3;
 //		if(randomNum <1) {
 //			//randomが０．０以上１．０未満の場合、グー
@@ -63,18 +63,18 @@ public class janken {
 //		}
 //		else if(randomNum<2)
 //		{
-//           //randomNumぁE.0以丁E.0未満の場吁Eチョキ
+//           //randomNumが1.0以上2.0未満の場合,チョキ
 //			player2Hand = SCISSORS;
 //		  //プレイヤー2の手を表示する
 //			System.out.print("チョキ");
 //		}
 //		else if(randomNum <3) {
-//			//randomNumぁE.0以丁E.0未満の場吁E
+//			//randomNumが2.0以上3.0未満の場合
 //
 //			player2Hand = PAPER;
 //
 //			//プレイヤー2の手を表示する
-//			System.out.print("パ�E");
+//			System.out.print("パー");
 //		}
 //
 //		//プレイヤー1の勝ち数
@@ -83,42 +83,42 @@ public class janken {
 //		//プレイヤー2の勝ち数
 //		int player2WinCount = 0;
 //
-//        //④どちらが勝ちかを判定し、結果を表示する、E
-//		//プレイヤー1が勝つ場吁E
+//        //④どちらが勝ちかを判定し、結果を表示する。
+//		//プレイヤー1が勝つ場合
 //		if( (player1Hand == STONE &&player2Hand==SCISSORS)
 //		||  (player1Hand == SCISSORS && player2Hand==PAPER)
 //		||  (player1Hand == PAPER && player2Hand == STONE))
 //		{
-//			//⑤プレイヤー1の買った回数を加算すめE
+//			//⑤プレイヤー1の買った回数を加算する
 //			player1WinCount++;
 //
-//			//じゃんけん�E結果を表示する
-//			System.out.println("\nプレイヤー�E�が勝ちました");
+//			//じゃんけんの結果を表示する
+//			System.out.println("\nプレイヤー２が勝ちました");
 //		}
-//		//引き刁E��の場吁E
+//		//引き分けの場合
 //		else
 //		{
-//			//じゃんけん�E結果を表示する
-//			System.out.println("\n引き刁E��です！\n");
+//			//じゃんけんの結果を表示する
+//			System.out.println("\n引き分けです！\n");
 //		}
 //
 		//じゃんけんを3回実施する
-		//⑥勝負した回数を加算すめE
+		//⑥勝負した回数を加算する
 		//⑦3回勝負が終わったか?
 
 		for(int cnt=0; cnt<3; cnt++) {
-			//②プレイヤー�E�が何を出すか決める
+			//②プレイヤー１が何を出すか決める
 
 			int player1Hand=0;
 
-			//0以丁E未満の少数として乱数を得る
+			//0以上3未満の少数として乱数を得る
 
 			randomNum = Math.random()*3;
 
 			if(randomNum <1)
 			{
 				player1Hand = STONE;
-				//プレイヤー�E��E手を表示
+				//プレイヤー１の手を表示
 				System.out.print("グー");
 			}
 
@@ -131,18 +131,18 @@ public class janken {
 			}
 			else if(randomNum < 3)
 			{
-				//randomNumぁE.0以丁E.0未満の場合、パー
+				//randomNumが2.0以上3.0未満の場合、パー
 				player1Hand = PAPER;
 
 				//プレイヤー1の手を表示する
-				System.out.print("パ�E");
+				System.out.print("パー");
 
 			}
 
 			//③プレイヤー2が何を出すか決める
 			int player2Hand=0;
 
-			//0以丁E未満の少数として乱数を得る
+			//0以上3未満の少数として乱数を得る
 			randomNum = Math.random()*3;
 			if(randomNum <1) {
 				//randomが０．０以上１．０未満の場合、グー
@@ -153,18 +153,18 @@ public class janken {
 			}
 			else if(randomNum<2)
 			{
-	           //randomNumぁE.0以丁E.0未満の場吁Eチョキ
+	           //randomNumが1.0以上2.0未満の場合,チョキ
 				player2Hand = SCISSORS;
 			  //プレイヤー2の手を表示する
 				System.out.print("チョキ");
 			}
 			else if(randomNum <3) {
-				//randomNumぁE.0以丁E.0未満の場吁E
+				//randomNumが2.0以上3.0未満の場合
 
 				player2Hand = PAPER;
 
 				//プレイヤー2の手を表示する
-				System.out.print("パ�E");
+				System.out.print("パー");
 			}
 
 			//プレイヤー1の勝ち数
@@ -173,35 +173,49 @@ public class janken {
 			//プレイヤー2の勝ち数
 			int player2WinCount = 0;
 
-	        //④どちらが勝ちかを判定し、結果を表示する、E
-			//プレイヤー1が勝つ場吁E
+	        //④どちらが勝ちかを判定し、結果を表示する。
+			//プレイヤー1が勝つ場合
 			if( (player1Hand == STONE &&player2Hand==SCISSORS)
 			||  (player1Hand == SCISSORS && player2Hand==PAPER)
 			||  (player1Hand == PAPER && player2Hand == STONE))
 			{
-				//⑤プレイヤー1の買った回数を加算すめE
+				//⑤プレイヤー1の買った回数を加算する
 				player1WinCount++;
 
-				//じゃんけん�E結果を表示する
-				System.out.println("\nプレイヤー�E�が勝ちました");
+				//じゃんけんの結果を表示する
+				System.out.println("\nプレイヤー２が勝ちました");
 			}
-			//引き刁E��の場吁E
+			//引き分けの場合
 			else
 			{
-				//じゃんけん�E結果を表示する
-				System.out.println("\n引き刁E��です！\n");
+				//じゃんけんの結果を表示する
+				System.out.println("\n引き分けです！\n");
 			}
 		}
 		//■■■■■■■■■■■■■■■■■■■■■■■■■■■■
-		//⑧最終的な勝老E��判定し、画面に表示する
+		//⑧最終的な勝者を判定し、画面に表示する
 		//■■■■■■■■■■■■■■■■■■■■■■■■■■■■
-        System.out.println("【ジャンケン終亁E��\n");
+        System.out.println("【ジャンケン終了】\n");
 
-        //プレイヤー1の勝ち数が多いとぁE
+        int player2WinCount=0;
+       int  player1WinCount=0;
+
+		//プレイヤー1の勝ち数が多いとき
         if(player1WinCount > player2WinCount) {
-        	//プレイヤー1の勝ちを表示する、E
+        	//プレイヤー1の勝ちを表示する。
         	System.out.println(player1WinCount + "対" + player2WinCount + "でプレイヤー2の勝ちです！\n");
 
+        }
+
+        //プレーヤー2の勝ち数が多いとき
+        else if (player1WinCount < player2WinCount)
+        {
+        	//プレーヤー2の勝ちを表示する
+        	System.out.println(player1WinCount + "対" + player2WinCount +"でプレイヤー2の勝ちです！\n");
+
+        }
+        else if(player1WinCount == player2WinCount) {
+        	System.out.println(player1WinCount+ "対" +player2WinCount +"で引き分けです！\n");
         }
 
 	}

@@ -197,7 +197,7 @@ public class janken {
 			System.out.println("【ジャンケン終了】\n");
 
         	int player2WinCount=0;
-        	int  player1WinCount=0;
+        	int player1WinCount=0;
 
         	//プレイヤー1の勝ち数が多いとき
         	if(player1WinCount > player2WinCount) {

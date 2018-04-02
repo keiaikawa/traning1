@@ -1,4 +1,4 @@
-﻿
+
 public class janken {
 
 	public static void main(String[] args) {
@@ -187,36 +187,35 @@ public class janken {
 			}
 			//引き分けの場合
 			else
-			{
+				{
 				//じゃんけんの結果を表示する
 				System.out.println("\n引き分けです！\n");
+				}
 			}
-		}
-		//■■■■■■■■■■■■■■■■■■■■■■■■■■■■
-		//⑧最終的な勝者を判定し、画面に表示する
-		//■■■■■■■■■■■■■■■■■■■■■■■■■■■■
-        System.out.println("【ジャンケン終了】\n");
 
-        int player2WinCount=0;
-       int  player1WinCount=0;
+			//⑧最終的な勝者を判定し、画面に表示する
+			System.out.println("【ジャンケン終了】\n");
 
-		//プレイヤー1の勝ち数が多いとき
-        if(player1WinCount > player2WinCount) {
+        	int player2WinCount=0;
+        	int  player1WinCount=0;
+
+        	//プレイヤー1の勝ち数が多いとき
+        	if(player1WinCount > player2WinCount) {
         	//プレイヤー1の勝ちを表示する。
         	System.out.println(player1WinCount + "対" + player2WinCount + "でプレイヤー2の勝ちです！\n");
 
-        }
+        	}
 
-        //プレーヤー2の勝ち数が多いとき
-        else if (player1WinCount < player2WinCount)
-        {
+        	//プレーヤー2の勝ち数が多いとき
+        	else if (player1WinCount < player2WinCount)
+        	{
         	//プレーヤー2の勝ちを表示する
         	System.out.println(player1WinCount + "対" + player2WinCount +"でプレイヤー2の勝ちです！\n");
 
-        }
-        else if(player1WinCount == player2WinCount) {
+        	}
+        	else if(player1WinCount == player2WinCount) {
         	System.out.println(player1WinCount+ "対" +player2WinCount +"で引き分けです！\n");
-        }
+        	}
 
 	}
 

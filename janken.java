@@ -1,4 +1,4 @@
-
+﻿
 public class janken {
 
 	public static void main(String[] args) {

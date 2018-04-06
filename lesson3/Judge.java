@@ -9,7 +9,7 @@ public class Judge
 		{
 			System.out.println("【"+ (cnt +1 ) + "回戦目】");
 
-			//プレイヤーの手をみて、どちらが価値化を判定する
+			//プレイヤーの手をみて、どちらが勝ちかを判定する
 
 			Player winner = judgeJanken(player1, player2);
 			if(winner !=null)
@@ -36,7 +36,7 @@ public class Judge
 
 		if(finalWinner !=null)
 		{
-			System.out.println(finalWinner.getName() + "の価値です!\n");
+			System.out.println(finalWinner.getName() + "の勝ちです!\n");
 		}
 		else
 		{
